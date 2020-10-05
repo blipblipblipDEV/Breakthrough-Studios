@@ -16,5 +16,10 @@ namespace The_Breakthrough_Studios_App
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
