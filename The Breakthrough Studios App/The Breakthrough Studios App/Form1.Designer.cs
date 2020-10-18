@@ -35,14 +35,19 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
+            this.comingSoonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Raleway SemiBold", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(203, 191);
+            this.label1.Location = new System.Drawing.Point(208, 225);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(416, 53);
             this.label1.TabIndex = 0;
@@ -52,7 +57,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(298, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(296, 41);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(214, 195);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -62,7 +67,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(228, 244);
+            this.label2.Location = new System.Drawing.Point(228, 278);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(352, 17);
             this.label2.TabIndex = 2;
@@ -71,7 +76,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Raleway SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(231, 276);
+            this.button1.Location = new System.Drawing.Point(231, 298);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(177, 58);
             this.button1.TabIndex = 3;
@@ -82,7 +87,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Raleway SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(414, 276);
+            this.button2.Location = new System.Drawing.Point(414, 298);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(177, 58);
             this.button2.TabIndex = 4;
@@ -93,7 +98,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Raleway SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(160, 340);
+            this.button3.Location = new System.Drawing.Point(162, 362);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(476, 58);
             this.button3.TabIndex = 5;
@@ -101,12 +106,55 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // toolStrip1
+            // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripSplitButton1});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(839, 27);
+            this.toolStrip1.TabIndex = 6;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripSplitButton1
+            // 
+            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.comingSoonToolStripMenuItem});
+            this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
+            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(39, 24);
+            this.toolStripSplitButton1.Text = "toolStripSplitButton1";
+            this.toolStripSplitButton1.ToolTipText = "Customize...";
+            // 
+            // comingSoonToolStripMenuItem
+            // 
+            this.comingSoonToolStripMenuItem.Name = "comingSoonToolStripMenuItem";
+            this.comingSoonToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
+            this.comingSoonToolStripMenuItem.Text = "Coming Soon!";
+            this.comingSoonToolStripMenuItem.Click += new System.EventHandler(this.comingSoonToolStripMenuItem_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Product Sans Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(12, 148);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(735, 63);
+            this.label3.TabIndex = 7;
+            this.label3.Text = resources.GetString("label3.Text");
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(839, 463);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -118,6 +166,8 @@
             this.Text = "Breakthrough Studios";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,6 +181,10 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
+        private System.Windows.Forms.ToolStripMenuItem comingSoonToolStripMenuItem;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.Label label3;
     }
 }
 

@@ -20,7 +20,7 @@ namespace The_Breakthrough_Studios_App
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            label3.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -41,6 +41,17 @@ namespace The_Breakthrough_Studios_App
         private void button3_Click(object sender, EventArgs e)
         {
             Process.Start("https://www.roblox.com/games/5426365206/Applications");
+        }
+
+        private void comingSoonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Hide();
+            label1.Hide();
+            label2.Hide();
+            button1.Hide();
+            button2.Hide();
+            button3.Hide();
+            label3.Show();
         }
     }
 }
