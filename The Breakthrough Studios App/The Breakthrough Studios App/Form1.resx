@@ -1422,11 +1422,6 @@
         A6cnhbauYl/Tms6QCKNv4zYijrumNa1pTWta05rWtKY7lP7QH/r/AXZmeq2ePkBAAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>We're still developing this feature! Once it's out, you'll be able to customize your app!
-The only problem is it doesn't save, because it's hard to program a feature like that.
-(If you want to go back to the normal app, just restart the app.)</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIAD72gAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgCAAAA0xA/MQAAgABJ

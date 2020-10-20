@@ -21,6 +21,7 @@ namespace The_Breakthrough_Studios_App
         private void Form1_Load(object sender, EventArgs e)
         {
             label3.Hide();
+            button4.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -52,6 +53,19 @@ namespace The_Breakthrough_Studios_App
             button2.Hide();
             button3.Hide();
             label3.Show();
+            button4.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Show();
+            label1.Show();
+            label2.Show();
+            button1.Show();
+            button2.Show();
+            button3.Show();
+            label3.Hide();
+            button4.Hide();
         }
     }
 }
