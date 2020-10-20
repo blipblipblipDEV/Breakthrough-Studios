@@ -40,6 +40,7 @@
             this.comingSoonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label3 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -77,7 +78,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Raleway SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(231, 298);
+            this.button1.Location = new System.Drawing.Point(119, 298);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(177, 58);
             this.button1.TabIndex = 3;
@@ -88,7 +89,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Raleway SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(414, 298);
+            this.button2.Location = new System.Drawing.Point(302, 298);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(177, 58);
             this.button2.TabIndex = 4;
@@ -98,10 +99,10 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Raleway SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(162, 362);
+            this.button3.Font = new System.Drawing.Font("Raleway SemiBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(119, 362);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(476, 58);
+            this.button3.Size = new System.Drawing.Size(559, 58);
             this.button3.TabIndex = 5;
             this.button3.Text = "Apply for staff (Requires group join)";
             this.button3.UseVisualStyleBackColor = true;
@@ -161,12 +162,24 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Raleway SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(485, 298);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(193, 58);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "Visit Website";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(839, 463);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.toolStrip1);
@@ -201,6 +214,7 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 
