@@ -40,8 +40,6 @@
             this.comingSoonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button4 = new System.Windows.Forms.Button();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.changeTextFontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fontDialog1 = new System.Windows.Forms.FontDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -103,7 +101,7 @@
             this.button3.Font = new System.Drawing.Font("Raleway SemiBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(119, 362);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(559, 58);
+            this.button3.Size = new System.Drawing.Size(573, 58);
             this.button3.TabIndex = 5;
             this.button3.Text = "Apply for staff (Requires group join)";
             this.button3.UseVisualStyleBackColor = true;
@@ -124,8 +122,7 @@
             // 
             this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.comingSoonToolStripMenuItem,
-            this.changeTextFontToolStripMenuItem});
+            this.comingSoonToolStripMenuItem});
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
@@ -145,18 +142,11 @@
             this.button4.Font = new System.Drawing.Font("Raleway SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(485, 298);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(193, 58);
+            this.button4.Size = new System.Drawing.Size(207, 58);
             this.button4.TabIndex = 9;
             this.button4.Text = "Visit Website";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // changeTextFontToolStripMenuItem
-            // 
-            this.changeTextFontToolStripMenuItem.Name = "changeTextFontToolStripMenuItem";
-            this.changeTextFontToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.changeTextFontToolStripMenuItem.Text = "Change text font";
-            this.changeTextFontToolStripMenuItem.Click += new System.EventHandler(this.changeTextFontToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -197,8 +187,6 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ColorDialog colorDialog1;
-        private System.Windows.Forms.ToolStripMenuItem changeTextFontToolStripMenuItem;
-        private System.Windows.Forms.FontDialog fontDialog1;
     }
 }
 

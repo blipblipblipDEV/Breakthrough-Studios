@@ -66,16 +66,7 @@ namespace The_Breakthrough_Studios_App
 
         private void changeTextFontToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string message = "You are about to change the text font. This can result in text getting messed up. Continue at your own risk. If you encounter a problem, please restart the app to fix it.";
-            string title = "Warning";
-            MessageBox.Show(message, title);
-            fontDialog1.ShowDialog();
-            label1.Font = fontDialog1.Font;
-            label2.Font = fontDialog1.Font;
-            button1.Font = fontDialog1.Font;
-            button2.Font = fontDialog1.Font;
-            button3.Font = fontDialog1.Font;
-            button4.Font = fontDialog1.Font;
+            
         }
     }
 }
