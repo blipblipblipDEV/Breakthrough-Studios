@@ -38,9 +38,10 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.comingSoonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label3 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.changeTextFontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -123,7 +124,8 @@
             // 
             this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.comingSoonToolStripMenuItem});
+            this.comingSoonToolStripMenuItem,
+            this.changeTextFontToolStripMenuItem});
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
@@ -134,44 +136,27 @@
             // comingSoonToolStripMenuItem
             // 
             this.comingSoonToolStripMenuItem.Name = "comingSoonToolStripMenuItem";
-            this.comingSoonToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
-            this.comingSoonToolStripMenuItem.Text = "Coming Soon!";
+            this.comingSoonToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
+            this.comingSoonToolStripMenuItem.Text = "Change text color";
             this.comingSoonToolStripMenuItem.Click += new System.EventHandler(this.comingSoonToolStripMenuItem_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Product Sans Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 143);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(735, 42);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "We\'re still developing this feature! Once it\'s out, you\'ll be able to customize y" +
-    "our app!\r\nThe only problem is it doesn\'t save, because it\'s hard to program a fe" +
-    "ature like that.";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Raleway SemiBold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(276, 210);
+            this.button4.Font = new System.Drawing.Font("Raleway SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(485, 298);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(261, 53);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Return to app";
+            this.button4.Size = new System.Drawing.Size(193, 58);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Visit Website";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button5
+            // changeTextFontToolStripMenuItem
             // 
-            this.button5.Font = new System.Drawing.Font("Raleway SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(485, 298);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(193, 58);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Visit Website";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.changeTextFontToolStripMenuItem.Name = "changeTextFontToolStripMenuItem";
+            this.changeTextFontToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.changeTextFontToolStripMenuItem.Text = "Change text font";
+            this.changeTextFontToolStripMenuItem.Click += new System.EventHandler(this.changeTextFontToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -179,9 +164,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(839, 463);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -212,9 +195,10 @@
         private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
         private System.Windows.Forms.ToolStripMenuItem comingSoonToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.ToolStripMenuItem changeTextFontToolStripMenuItem;
+        private System.Windows.Forms.FontDialog fontDialog1;
     }
 }
 

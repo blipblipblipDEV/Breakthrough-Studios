@@ -20,8 +20,7 @@ namespace The_Breakthrough_Studios_App
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label3.Hide();
-            button4.Hide();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -46,31 +45,37 @@ namespace The_Breakthrough_Studios_App
 
         private void comingSoonToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            pictureBox1.Hide();
-            label1.Hide();
-            label2.Hide();
-            button1.Hide();
-            button2.Hide();
-            button3.Hide();
-            label3.Show();
-            button4.Show();
+            colorDialog1.ShowDialog();
+            label1.ForeColor = colorDialog1.Color;
+            label2.ForeColor = colorDialog1.Color;
+            button1.ForeColor = colorDialog1.Color;
+            button2.ForeColor = colorDialog1.Color;
+            button3.ForeColor = colorDialog1.Color;
+            button4.ForeColor = colorDialog1.Color;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            pictureBox1.Show();
-            label1.Show();
-            label2.Show();
-            button1.Show();
-            button2.Show();
-            button3.Show();
-            label3.Hide();
-            button4.Hide();
+            
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://breakthrough-studios.webflow.io");
+        }
+
+        private void changeTextFontToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string message = "You are about to change the text font. This can result in text getting messed up. Continue at your own risk. If you encounter a problem, please restart the app to fix it.";
+            string title = "Warning";
+            MessageBox.Show(message, title);
+            fontDialog1.ShowDialog();
+            label1.Font = fontDialog1.Font;
+            label2.Font = fontDialog1.Font;
+            button1.Font = fontDialog1.Font;
+            button2.Font = fontDialog1.Font;
+            button3.Font = fontDialog1.Font;
+            button4.Font = fontDialog1.Font;
         }
     }
 }
