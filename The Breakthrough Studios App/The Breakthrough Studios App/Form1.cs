@@ -46,12 +46,13 @@ namespace The_Breakthrough_Studios_App
         private void comingSoonToolStripMenuItem_Click(object sender, EventArgs e)
         {
             colorDialog1.ShowDialog();
-            label1.ForeColor = colorDialog1.Color;
-            label2.ForeColor = colorDialog1.Color;
-            button1.ForeColor = colorDialog1.Color;
-            button2.ForeColor = colorDialog1.Color;
-            button3.ForeColor = colorDialog1.Color;
-            button4.ForeColor = colorDialog1.Color;
+            var pickedColor = colorDialog1.Color;
+            label1.ForeColor = pickedColor;
+            label2.ForeColor = pickedColor;
+            button1.ForeColor = pickedColor;
+            button2.ForeColor = pickedColor;
+            button3.ForeColor = pickedColor;
+            button4.ForeColor = pickedColor;
         }
 
         private void button4_Click(object sender, EventArgs e)
